@@ -22,7 +22,7 @@ return new class extends Migration
             $table->datetime('departure_date');
             $table->time('arrival_time');
             $table->datetime('arrival_date');
-            $table->char('train_code', 0);
+            $table->char('train_code', 8);
             $table->tinyinteger('number_of_carriages');
             $table->boolean('on_time');
             $table->boolean('deleted');
